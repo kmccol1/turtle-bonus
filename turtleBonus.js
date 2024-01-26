@@ -160,33 +160,28 @@ function runProgram()
 }
 
 //****************************************************************************************
-/*
+
 if(require.main === module)
 {
   runProgram();
 }
-*/
+
 //****************************************************************************************
 
-let firstInitial = function(arr)
-{
-    return arr[0];
-}
-
-let names = ["Chris", "Jim", "Sally", "Blake", "Paul"];
-
-// TODO: Write a mapping function
-// and pass it to .map()
-let firstInitials = names.map(firstInitial);
-
-console.log(firstInitials);
-
-
-
-
-
-
-
+/*
+ node turtleBonus.js
+Please enter your choice (A-D): A
+[ [ 0, 0, 0 ], [ 0, 'T', 0 ], [ 0, 0, 0 ] ]
+Please enter your choice (A-D): D
+[ [ 0, 0, 0 ], [ 0, 0, 'T' ], [ 0, 0, 0 ] ]
+Please enter your choice (A-D): A
+[ [ 0, 0, 0 ], [ 0, 0, 'T' ], [ 0, 'T', 0 ] ]
+Please enter your choice (A-D): D
+[ [ 0, 0, 0 ], [ 0, 0, 'T' ], [ 0, 'T', 0 ] ]
+Please enter your choice (A-D): Q
+[ [ 0, 0, 0 ], [ 0, 0, 'T' ], [ 0, 'T', 0 ] ]
+Goodbye!
+*/
 
 
 
